@@ -1,54 +1,68 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    
     <link href="../ProyectoWeb/css/style.css" rel="stylesheet" />
-
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    
 
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Revista Devops</title>
+
+    <script src="../ProyectoWeb/js/JavaScript.js"></script>
+
   </head>
   <body id="IndexBackground">
-    <header> 
-    <article>
-      <h1>📘 Recurso Devops</h1>
-      <nav>
-        <a href="../ProyectoWeb/tabla.html" target="_blank">Tabla Contenido</a>
-      </nav>
-    </header>
 
-    <h2 id="CICD">Integracion continua Despliegue continuo</h2>
+<div class="container">
+    <header> 
+  
+      <h6 class="display-6" class="text-sm-center">📘 Recurso Devops</h6>
+      
+      <nav>
+          <a style="font-size:1vw" href="../ProyectoWeb/tabla.html" target="_blank">Tabla Contenido</a>  
+      </nav>
+   </header>
+   <article>
+    
     <!--Comentario-->
+
     <img
       src="../ProyectoWeb/img/2.jpg"
       alt="Carlos Vargas"
       width="50"
       height="50"
+      class="author-img"
+      
     />
 
-    <p id="author">Publicado por <strong>Carlos Vargas</strong> el martes 22 de Febrero</p>
+    <p style="font-size:1vw;" id="author" class="author">
+      Publicado por <strong>Carlos Vargas</strong> el Domingo 24 de Abril, este documento busca ser una guia de inicio para conocer comceptos de Devops
+    </p>
 
-    <img
-      src="../ProyectoWeb/img/1.jpg"
-      alt="Primera imagen del post"
-      width="500"
-      height="200"
-    />
+    <img 
+    src="/Devweb/ProyectoWeb/img/1.jpg" 
+    alt="Nature" 
+    class="responsive">
 
-    <h2>Requerimientos Devops</h2>
+    <h6 class="display-5" >Requerimientos Devops</h6>
+    
 
-    <p>
+    <p style="font-size:1vw;">
+
       En este sitio tratare de describir algunas de las herramientas de
       <em>Devops</em>, como y que podemos alcanzar aplicando este comcepto
     </p>
 
-    <h3>¿Que es Devops?</h3>
+    
+    <h6 class="display-6" >¿Que es Devops?</h6>
 
-    <p>
+    <p style="font-size:1vw;">
       Sobre Devops podemos encontrar multiples definiciones en la web, desde que
       es una metodologia, una cultura hasta que es el uso de herramientas para
       automatizar procesos, lo cierto es que sea cual sea la definicion que
@@ -56,50 +70,128 @@
       desarrollo e infraestructura.
     </p>
 
-    <h3>¿Cuales herramientas se sugieren?</h3>
+    <h3 style="font-size:1vw">¿Cuales herramientas se sugieren?</h3>
     
     <ol>
-      <li>Pipeline</li>
-      <li>Git</li>
-      <li>Terraform</li>
-      <li>Microsoft Azure</li>
-      <li>Ansible</li>
+      <li style="font-size:1vw;">Pipeline</li>
+      <li style="font-size:1vw;">Git</li>
+      <li style="font-size:1vw;">Terraform</li>
+      <li style="font-size:1vw;">Microsoft Azure</li>
+      <li style="font-size:1vw;">Ansible</li>
     </ol>
 
-    <h3>¿Por que deberia aprender Devops?</h3>
+    <h3 style="font-size:1vw;">¿Por que deberia aprender Devops?</h3>
 
     <ul>
-      <li>Por que nos permite automatizar procesos</li>
-      <li>Por que nos permite realizar mejoras continuas</li>
-      <li>Por que nos ofrece alta disponibilidad</li>
-      <li>Los despliegues de infraestructura bastante rapidos con IaC</li>
-      <li>Entre otros...</li>
+      <li style="font-size:1vw;">Por que nos permite automatizar procesos</li>
+      <li style="font-size:1vw;">Por que nos permite realizar mejoras continuas</li>
+      <li style="font-size:1vw;">Por que nos ofrece alta disponibilidad</li>
+      <li style="font-size:1vw;">Los despliegues de infraestructura bastante rapidos con IaC</li>
+      <li style="font-size:1vw;">Entre otros...</li>
     </ul>
 
-    <a
-      href="../ProyectoWeb/tabla.html"
-      target="_blank"
-      >Siguiente</a
-    >
+
+    <i class="material-icons">logout</i>
+    <a href="../ProyectoWeb/tabla.html" class="btn btn-primary" style="font-size:1vw">Siguiente</a>
+
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+
+<!-- Slider -->
+<div class="slideshow-container">
+
+  <!-- Imagenes con el numero de texto -->
+  <div class="mySlides fade">
+    <div class="numbertext">1 / 3</div>
+    <img src="../ProyectoWeb/img/eye.jpg" style="width:100%">
+    <div class="text">Docker</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">2 / 3</div>
+    <img src="../ProyectoWeb/img/pi.jpg" style="width:100%">
+    <div class="text">Kubernetes</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">3 / 3</div>
+    <img src="../ProyectoWeb/img/pi2.jpg" style="width:100%">
+    <div class="text">Azure</div>
+  </div>
+
+  <!-- Controles -->
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div>
+<br>
+
+<!-- The dots/circles -->
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span>
+  <span class="dot" onclick="currentSlide(2)"></span>
+  <span class="dot" onclick="currentSlide(3)"></span>
+</div>
+
   </article>
+</div>
 
-  <aside>
-    <div>
-      <ul>
-        <img src="../ProyectoWeb/img/3.jpg"
-        alt="Informacion adicional"
-        width="75"
-        height="75"/></ul>
-        <a href="https://www.google.com" target="_blank"> Informacion adicional</a>
-      </div>
-        <p>Por Carlos Vargas</p>
+  <aside class="responsiveco">
+    <h4 style="font-size:1vw">Articulos relacionados</h4>
+
+      <ul class="related">
+        <ul class="related">
+          <li class="related-post">
+            <img
+              src="../ProyectoWeb/img/3.jpg"
+              alt="Informacion adicional"
+              width="75"
+              height="75"
+              class="img-thumbnail"
+            />
+            <div class="container-fluid">
+              <a href="https://www.youtube.com/watch?v=L5lsNJoihzc" class="related-link" style="font-size:1vw">Los 10 lenguajes de programación más demandados de 2022</a>
+              <p class="related-author" style="font-size:1vw" >Victor Robles</p>
+            </div>
+          </li>
+          <li class="related-post">
+            <img
+              src="../ProyectoWeb/img/3.jpg"
+              alt="Rayo"
+              width="75"
+              height="75"
+              class="img-thumbnail"
+            />
+            <div>
+              <a href="https://www.youtube.com/watch?v=5z2kYFG3OfY&list=PLrb1e2Mp6N_tXQryuDVzOq4SLQKqVv1uz" class="related-link" style="font-size:1vw">Curso de Docker Gratis - Presentación</a>
+              <p class="related-author" style="font-size:1vw" >Por Iñigo Serrano</p>
+            </div>
+          </li>
+          <li class="related-post">
+            <img
+              src="../ProyectoWeb/img/5.jpg"
+              alt="Code on a screen"
+              width="75"
+              height="75"
+              class="img-thumbnail"
+            />
+            <div>
+              <a href="https://www.youtube.com/watch?v=DCoBcpOA7W4" class="related-link" style="font-size:1vw">KUBERNETES 2021 - De NOVATO a PRO! (CURSO COMPLETO)</a>
+              <p class="related-author" style="font-size:1vw">Por Pelado Nerd</p>
+            </div>
+          </li>
+      <ul/>
+        
     </div>
-
+   <i class="material-icons">info</i>
   </aside>
 
+
   <footer>
-    <p id="copyright">Copyright &copy; 2022 por Recurso Devops</p>
-    
+    <p id="copyright" style="font-size:1vw >Copyright &copy; 2022 por Recurso Devops</p>    
   </footer>
 
   </body>
